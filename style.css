@@ -1,0 +1,87 @@
+#navbar {
+  height: 67px;
+}
+
+#logo {
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #003363;
+}
+
+#navbarNav a {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #004e84;
+}
+
+#navbarNav a:active,
+#navbarNav a:hover,
+#navbarNav a.active:active {
+  text-decoration: underline;
+}
+
+#hero {
+  background-image: linear-gradient(
+      rgba(0, 34, 65, 0.61),
+      rgba(0, 34, 65, 0.61)
+    ),
+    url("./images/gym-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; /* Adjust as needed: cover, contain, auto, specific values */
+  /* Adjust as needed */
+  width: 100vw;
+  height: 823px; /* Example height */
+}
+
+#title {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 84px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+}
+
+#base {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #003363;
+  background: #12c6ff;
+  padding: 10px;
+}
+
+.carousel {
+    max-width: 1200px;
+    margin: 0 auto; /* Centers the carousel horizontally */
+}
+
+/* Ensure images fill the 500px container properly */
+.carousel-item img {
+    width: 100%;
+    height: 300px; /* Optional: Set a fixed height to keep it uniform */
+    object-fit: cover; /* Prevents stretching/distortion */
+}
+
+#carouselExample img {
+    height: 400px;
+    object-fit: cover; /* This ensures images don't look squished */
+}
+
+/* Optional: Make the carousel container look exactly like the reference box */
+.border-secondary-subtle {
+    border-width: 2px !important;
+    border-color: #e0e0e0 !important;
+}
