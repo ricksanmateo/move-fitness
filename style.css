@@ -1,3 +1,34 @@
+/* Ensure content starts below the fixed navbar */
+body {
+    padding-top: 70px;
+}
+
+/* Mobile Nav Adjustments */
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        background-color: #0dcaf0; /* Matches bg-info */
+        margin: 0 -3rem; /* Extends background to edges */
+        padding: 1rem 3rem;
+        border-bottom: 5px solid #000;
+    }
+    
+    .nav-link {
+        border-bottom: 1px solid rgba(0,0,0,0.05);
+        font-weight: 500;
+    }
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Active link styling */
+.nav-link.active {
+    color: #000 !important;
+    font-weight: 700;
+}
+
 #navbar {
   height: 67px;
 }
